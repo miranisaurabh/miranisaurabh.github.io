@@ -552,6 +552,14 @@ small {
   color: #008073 !important;
 }
 
+.underhoverline {
+  border-bottom: 3px solid transparent !important;
+  padding: 3px 3px 0 3px;
+  transition: 0.25s all;
+  -moz-transition: 0.25s all;
+  -webkit-transition: 0.25s all;
+}
+
 /* .teal-text {
   color: #0b5e86 !important;
 } */
