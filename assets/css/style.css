@@ -469,6 +469,11 @@ h3 {
   position: sticky;
 }
 
+.work-period {
+  padding: 20px;
+  background-color: rgb(230,230,230);
+}
+
 a.hoverline {
   border-bottom: 3px solid transparent !important;
   padding: 3px 3px 0 3px;
