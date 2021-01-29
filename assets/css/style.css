@@ -459,10 +459,11 @@ h3 {
 }
 
 /* Card sticky buttons */
-.card .card-action {
+.card .card.medium .card-action {
   position: sticky;
   padding: 0px;
   padding-top: 5px;
+  border-top: 0px;
 }
 
 a.hoverline {
