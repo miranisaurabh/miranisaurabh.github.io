@@ -745,8 +745,9 @@ small {
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
-  max-width: 700px;
+  /* width: 80%;
+  max-width: 700px; */
+  max-height: 600px;
 }
 
 /* Caption of Modal Image */
