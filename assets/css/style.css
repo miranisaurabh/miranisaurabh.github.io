@@ -228,8 +228,8 @@ ul.side-nav li {
 }
 
 .profile-pic-small-only {
-  padding-left: 20%;
-  padding-top: 25%;
+  margin-left: 20%;
+  margin-top: 25%;
 }
 
 /* ul.side-nav.fixed a {

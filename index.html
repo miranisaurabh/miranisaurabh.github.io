@@ -251,25 +251,25 @@
       <li class="logo">
         <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
           class="profile-pic-small-only grey-blue-text">
-          <img id="myImg" src="/assets/img/saurabh-passport-photo-square.jpg" class="circle img-responsive profile-pic" alt="Saurabh Mirani">
+          <img id="myImgSmall" src="/assets/img/saurabh-passport-photo-square.jpg" class="circle img-responsive profile-pic" alt="Saurabh Mirani">
         </a>
       </li>
 
       <!-- The Modal -->
-      <div id="myModal" class="modal">
+      <div id="myModalSmall" class="modal">
         <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption" style="font-size: xx-large;"></div>
+        <img class="modal-content" id="img01Small">
+        <div id="captionSmall" style="font-size: xx-large;"></div>
       </div>
       
       <script>
         // Get the modal
-        var modal = document.getElementById("myModal");
+        var modal = document.getElementById("myModalSmall");
 
         // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById("myImg");
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
+        var img = document.getElementById("myImgSmall");
+        var modalImg = document.getElementById("img01Small");
+        var captionText = document.getElementById("captionSmall");
         img.onclick = function () {
           modal.style.display = "block";
           modalImg.src = this.src;
