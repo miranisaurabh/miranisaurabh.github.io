@@ -227,6 +227,11 @@ ul.side-nav li {
   padding: 0;
 }
 
+.profile-pic-small-only {
+  padding-left: 20%;
+  padding-top: 25%;
+}
+
 /* ul.side-nav.fixed a {
   box-sizing: content-box;
   color: rgb(48, 122, 207);
